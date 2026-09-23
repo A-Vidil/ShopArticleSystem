@@ -18,6 +18,9 @@
     <ClInclude Include="Article.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Gestion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -29,5 +32,10 @@
     <ClCompile Include="Gestion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="article.dat">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
