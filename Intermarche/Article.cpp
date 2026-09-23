@@ -1,6 +1,8 @@
 #include <string>
 #include "Article.h"
 
+#include <iostream>
+
 using namespace std;
 
 	Article::Article(string n) 
@@ -34,4 +36,8 @@ using namespace std;
 	}
 
 	Article::~Article()
-	{}
+	{
+	
+		cout << "---[Destructeur de " << this->getNom() << "]---" << endl;
+	
+	}

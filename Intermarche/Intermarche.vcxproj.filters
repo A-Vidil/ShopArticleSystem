@@ -26,5 +26,8 @@
     <ClCompile Include="Article.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Gestion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
